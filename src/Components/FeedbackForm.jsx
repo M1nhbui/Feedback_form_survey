@@ -29,7 +29,7 @@ const FeedbackForm = () => {
     if (isConfirmed) {
       console.log('Submitting feedback:', formData);
       setFormData({
-        name: '', 
+        name: '',
         email: '',
         feedback: '',
         rating: '' // Reset rating after submission
